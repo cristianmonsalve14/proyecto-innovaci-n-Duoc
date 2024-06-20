@@ -1,0 +1,27 @@
+
+  
+  .collapse {
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  .carousel-indicators {
+    top: 180px;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+  }
+
+.btn {
+  color: #373a3C;
+}
+  
+.color {
+  background-color: #373A3C;
+  color: #FFFFFF;
+}
+
+
+

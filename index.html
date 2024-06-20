@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Trabajo innovacion</title>
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--cdn bootstrap 5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster" rel="stylesheet">
+        <!--cdn bootstrap 4 para carrusel-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--cdn fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <!--link rel-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style2.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/formulario.css">
+        <link rel="stylesheet" href="assets/css/carrusel.css">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <script src="assets/js/main.js" defer></script>
+    </head>
+
+    <body style="background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);">
+        
+        <!--navbar-->
+        <input type="checkbox" id="menu-toggle"/>
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#contenido">Informacion</a></li>
+            <li><a href="#ubicacion">Tu Ubicacion</a></li>
+            <li><a href="#cuidados">Cuidados</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <!--end navbar-->
+
+        <!--seccion 1-->
+        <br><br>
+        <div class="container">
+            <div class="mt-5">
+                <!--introduccion-->
+                <h2 class="mt-2 font-weight-bold" style="text-align: center;" >TECNOLOGIA DEL DISEÑO</h2>
+                <hr class="mt-4" style="border-color:black;">
+                <p id="argumento" style="text-align:justify; color:#373a3C"></p>   
+                    La tecnologia del diseño se basa, en la fotosíntesis de las plantas mas cinco microorganismos 
+                    electrogénicos, produciendo energía biológica, ecológica y limpia.
+                    El prototipo, que contiene una planta y un panel solar en su base no es tan simple como se ve, es un proceso mucho más 
+                    complejo. Se trata de un dispositivo híbrido, que trabaja con energía solar, fotosintética y eléctrica, esta ultima es producida 
+                    por los microorganismos electrogénicos. 
+                    Estas tres energías se unen y se obtiene la corriente que es repotenciada gracias al enfriamiento natural de la arcilla, 
+                    es la única tecnología en el mundo que logra hacer posible utilizar la corriente biológica de una forma sostenible y eficaz.
+                    La corriente generada se almacena en una batería de 10 amperios, que sirve, básicamente, para cargar hasta dos teléfonos 
+                    celulares y encender ampolletas o focos.
+                    Los microorganismos, cuando no están en su hábitat natural, se mueren. Por ello se utiliza arcilla o la alfombra de cesped
+                    para la construcción del prototipo, este material contiene tres tipos de minerales. La arcilla produce un enfriamiento 
+                    natural y, con ello, los microorganismos creen que están en su casa o habitat natural, desarrollandose y reproduciendose.                </p>
+                <!--end introduccion-->
+
+                <!--seccion carrusel de fotos-->
+                <section class="container">
+                    <div class="d-none d-sm-block	d-sm-none d-md-block rounded">
+                        <div class="mt-5  rounded  pb-5">
+                            <div id="platosCarousel" class="carousel slide text-dark" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#platosCarousel" data-slide-to="0" class="active" style="background-color:#373A3C"></li>
+                                    <li data-target="#platosCarousel" data-slide-to="1" style="background-color:#373A3C"></li>
+                                </ol>
+                                <div class="carousel-inner text-dark">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/duoc_escuela informatica2.jpeg" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/carrusel-1.jpg" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/carrusel-2.jpg" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/duoc_escuela informatica2.jpeg" width="233" height="170" alt="slider">
+                                            </div>
+                                        </div>
+                                    </div>
+              
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/duoc_escuela informatica3.jpeg" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/carrusel-3.jpg" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/carrusel-4.png" width="233" height="170" alt="slider">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <img src="assets/img/duoc_escuela informatica3.jpeg" width="233" height="170" alt="slider" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr class="d-none d-sm-block	d-sm-none d-md-block" style="border-color:black;">
+                  </section>
+                  <!--end carrusel de fotos-->
+            </div>
+
+            <!--seccion imagen y descripcion(1)-->
+            <div class="row pt-5">
+                <div class="mt-5 col-sm-6">
+                    <h2 class="mt-2 font-weight-bold" style="text-align: center;" >INFORMACION GENERAL DE LA TECNOLOGIA DEL DISEÑO</h2>
+                    <hr class="mt-4" style="border-color:black;">
+                    <p style="text-align:justify; color:#373a3C"></p> 
+                        Esta tecnologia innovadora donde se logra generar electricidad a partir de la 
+                        fotosíntesis de las plantas. funciona a traves de una celda con tierra orgánica dosificada interpuesto en unos 
+                        electrodos de grafito, se logra crear una comunidad microbiana rica en micronutrientes capaz de acelerar 
+                        la reacción REDOX y transformar la energía química en electricidad de manera eficiente.
+                        El contacto con la raíz de las plantas y la humedad formada por el riego con agua logra acelerar 
+                        la fluides de electrones libres las 24 horas del día, creando de esta manera dos productos revolucionarios que no 
+                        requieren baterías en el campo de la energía renovable.
+                    </p>
+                </div>
+                <div class="col-sm-6 mt-5" id="contenido">
+                    <div class="d-block d-sm-none"><hr style="border-color:black;"></div>
+                    <img class="img-fluid" src="assets/img/maceta.jpg"  alt="principal">
+                </div>
+            </div>
+            <!--end seccion imagen y descripcion-->
+        </div>
+        <!--end seccion 1-->
+        
+
+        <!--seccion imagen y descripcion(2)-->
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-sm-6 mt-5">
+                    <div class="d-block d-sm-none"><hr style="border-color:black;"></div>
+                    <img class="img-fluid" src="assets/img/alinti-e-grass.jpg"  alt="principal">
+                </div>
+
+                <div class="mt-5 col-sm-6">
+                    <h2 class="mt-2 font-weight-bold" style="text-align: center;">LOGRANDO GENERAR ELECTRICIDAD 100% BIOLOGICA ECOLOGICA Y LIMPIA</h2>
+                    <hr class="mt-4" style="border-color:black;">
+                    <p id="argumento" style="text-align:justify; color:#373a3C"></p> 
+                        El Prototipo “e-Grass” es un dispositivo que abarca un área de 0.5 metros cuadrados de grass o cesped natural. 
+                        Este dispositivo que consta de una base de panel solar y sobre esta el cesped o grass y la raíz de la planta, para generar 
+                        hasta más de 10 watts hora de electricidad destinado para luminarias dentro del hogar, en oficinas, salas de lecturas, 
+                        salas de estudio, entre otros.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--end seccion imagen y descripcion-->
+
+        <!--api clima-->
+        <section class="container">
+            <br><br>
+            <hr class="mx-1" style="border-color:black;">
+            <h1 style="text-align: center; font-size: 32px;"><strong>CUIDADOS DE ACUERDO A TU UBICACION</strong></h1>
+            <div class="clima" id="ubicacion">
+                <div class="search-form">
+                    <form id="search-form">
+                        <div class="searchbox">
+                            <input type="text" autocomplete="off" placeholder="Buscar ciudad.." class="search" id="searchbox" /> 
+                        </div>
+                    </form>
+                </div>
+                <div class="weather-card" id="card">
+                    <div class="city" id="city"><i class="fas fa-globe"></i>Ciudad, CL</div>
+                    <div class="date" id="date"></div>
+                    <div class="temperature">
+                        <img src="" alt="" class="temp-img" id="temp-img"><i class="fas fa-temperature-low"></i>
+                        <div class="temp" id="temp">grados c°</div>
+                    </div>
+                    <div class="weather" id="weather"><i class="fas fa-sun"></i>Sol</div>
+                    <div class="range" id="range">--c° / --c°</div> 
+                </div> 
+            </div>  
+        </section>
+        <!--end api-->
+        
+        <!--seccion recomendaciones-->
+        <br>
+        <section id="cuidados" class="container">
+            <hr class="mx-1" style="border-color:black;">
+            <h1 class="text-center font-weight-bold" style="font-size: 22px">RECOMENDACIONES DEL CUIDADO Y EXPOSICION DE LA PLANTA</h1>
+            <br><br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/frio.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: rgb(0, 60, 255);font-size: larger;">Temperatura Baja</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/media.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: rgb(138, 231, 0); font-size: larger;">Temperatura Optima</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/img/calor.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: rgb(202, 39, 39);font-size: larger;">Temperatura Alta</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="mx-1" style="border-color:black;">
+        <!--end recomendaciones-->
+        <br><br>
+        <!--formulario de contacto-->
+        <div class="formulario">
+            <div class="container2">
+                <h2 class="mb-4">Formulario de Contacto</h2>
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+        <!--end formulario de contacto-->
+
+        <!--footer-->
+        <footer id="contacto" class="footer-distributed">      
+            <div class="footer-left">
+                <h3>Trabajo innovacion</h3>
+                <p class="footer-company-name">Escuela informatica DuocUC&copy;2024</p>
+                <br>
+                <p style="color: white;">ALUMNO:</p>
+                <p style="color: white;">Cristian Monsalve B</p>
+            </div>
+            <div class="footer-center">
+                <div><p><a href="https://wa.me/56961784504"><i class="fab fa-whatsapp fa-5x"></i>contacto</a></p></div>
+                <div><p><a href="mailto:sitiosweb@polyden.cl"><i class="fa fa-envelope fa-5x"></i>contactanos</a></p></div> 
+                <div><p class="footer-links"><a href="index.html"><i class="fas fa-undo"></i>volver a Inicio</a></p></div>
+            </div>
+            
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Bases de Innovacion</span>
+                Trabajo Experiencia 3: "Prototipo y Presentacion de proyecto"<br>
+                DOCENTE: PATRICIA TAPIA URQUIZA
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!--end footer-->
+
+        <!--script jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <!--script js-popper-ajax-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <!--script bootstrap 5-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
+        <!--script bootstrap 4-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <!--scripts js-->
+        <script src="assets/js/script.js"></script>
+
+    </body>
+
+</html>

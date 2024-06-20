@@ -1,0 +1,98 @@
+:root {
+  font-size: 18px;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*searchbox*/
+.searchbox {
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    max-width: 480px;
+    margin: 1px auto;
+    border-radius: 13px;
+  }
+  
+  .search {
+    width: 100%;
+    background-color: var(--text-color);
+    border:2rem;
+    font-size: 1rem;
+  }
+
+  .search-form {
+    margin: 20px 20px;
+  }
+
+  .clima {
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    background-size: 100%;
+    background-color: rgb(117, 114, 114);
+    width: 100%;
+  
+  }
+  
+  .search:focus {
+    outline: none;
+  }
+  
+  .weather-card {
+    margin: 20px 20px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    
+  }
+  
+  .city {
+    font-family: "Merriweather", serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .date {
+    font-family: "Merriweather", serif;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .temp-img {
+    width: 70px;
+    margin-right: 10px;
+  }
+
+  .temp {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .weather {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
